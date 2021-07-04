@@ -14,7 +14,9 @@ body {
   background: #fff;
   color: #555;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 body,
 p {
   font-family: "Open Sans", sans-serif;
@@ -1699,9 +1701,6 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 16px;
   color: #ffb600;
   margin: 0;
-}
-.ts-facts-img i{
-  height: 50px;
 }
 
 /* Services
