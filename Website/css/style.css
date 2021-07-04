@@ -1238,7 +1238,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
-  height: 400px;
+  height: 485px;
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
@@ -2176,10 +2176,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Clients */
 .clients-logo {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
 
-  min-height: 105px;
-  padding: 0 30px;
+  min-height: 10px;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2188,7 +2188,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .clients-logo img {
-
+height: 80px;
 }
 
 /* Testimonial
