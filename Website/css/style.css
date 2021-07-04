@@ -1700,6 +1700,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   color: #ffb600;
   margin: 0;
 }
+.ts-facts-img i{
+  height: 50px;
+}
 
 /* Services
 ================================================== */
