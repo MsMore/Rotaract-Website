@@ -734,13 +734,14 @@ ul.navbar-nav > li.active > a {
 }
 
 /*-- Logo --*/
-.logo img {
-  width: auto;
-  height: 35px;
-}
+
 
 .header-two .logo img {
-  height: 30px;
+  height: 55px;
+}
+
+.header-one .logo img {
+  height: 55px;
 }
 
 /* header right */
@@ -1237,7 +1238,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 /*-- Main slide --*/
 .banner-carousel .banner-carousel-item {
-  height: 700px;
+  height: 400px;
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
@@ -1251,7 +1252,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 @media (max-width: 575px) {
   .banner-carousel .banner-carousel-item {
-    height: 450px;
+    height: 380px;
   }
 }
 
@@ -2176,7 +2177,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 /* Clients */
 .clients-logo {
   margin: 0 0 30px;
-  border: 1px solid #dadada;
+
   min-height: 105px;
   padding: 0 30px;
   display: flex;
@@ -2187,10 +2188,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .clients-logo img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-filter: gray;
-          filter: gray;
+
 }
 
 /* Testimonial
@@ -2462,7 +2460,7 @@ img.testimonial-thumb {
 /* Footer about us */
 .footer-logo {
   margin-bottom: 25px;
-  max-height: 35px;
+  max-height: 65px;
 }
 
 /* Footer social */
@@ -3482,6 +3480,7 @@ label {
   color: #fff;
   border: 1px solid transparent;
 }
+
 
 /* Error page
 ================================================== */
