@@ -1212,10 +1212,7 @@ ul.navbar-nav > li > a {
   color: #ffb600 !important;
 }
 
-ul.navbar-nav > li.header-get-a-quote:hover > a:after {
-  position: relative;
-  content: no-close-quote;
-}
+
 
 /* Table of Content
 ==================================================
@@ -2794,6 +2791,13 @@ img.testimonial-thumb {
   border-right: 0;
 }
 
+/* @media (max-width: 726px) {
+  .header-get-a-quote {
+    position: absolute;
+
+  }
+} */
+
 /*-- Team page --*/
 .team-slide .slick-slide {
   margin-left: 25px;
@@ -3521,3 +3525,29 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* donate and join button */
+
+#donate-join {
+  list-style-type: none;
+  display: flex;
+  margin-left: 33%;  
+  margin-top: 10px;
+
+}
+
+#display-join .header-get-a-quote {
+  flex: 1;  
+}
+
+#donate {
+  margin-right: 20px;
+}
+
+@media (max-width: 726px) {
+  #donate-join {
+    margin-top: 15px;
+    margin-left: 13px;  
+  }
+  
+}
