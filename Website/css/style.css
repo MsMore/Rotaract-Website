@@ -2581,6 +2581,7 @@ img.testimonial-thumb {
 @media (max-width: 500px) {
   .copyright {
     font-size: 9.5px;
+    padding: 10px 7px;
   }
 }
 
