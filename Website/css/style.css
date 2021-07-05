@@ -2172,7 +2172,9 @@ ul.navbar-nav > li > a {
   color: #fff;
   transition: 0.3s;
 }
-
+.rc-near-me {
+  color: #ffb600;
+}
 .accordion-group .card-header .btn[aria-expanded="true"] {
   color: #ffb600;
 }
