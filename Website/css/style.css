@@ -2578,6 +2578,12 @@ img.testimonial-thumb {
   box-shadow: none;
 }
 
+@media (max-width: 500px) {
+  .copyright {
+    font-size: 9.5px;
+  }
+}
+
 @media (max-width: 767px) {
   #back-to-top {
     right: 15px;
