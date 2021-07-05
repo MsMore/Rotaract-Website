@@ -3533,7 +3533,7 @@ label {
 #donate-join {
   list-style-type: none;
   display: flex;
-  margin-left: 33%;  
+  margin-left: 180px;  
   margin-top: 10px;
 
 }
@@ -3549,7 +3549,7 @@ label {
 @media (max-width: 726px) {
   #donate-join {
     margin-top: 15px;
-    margin-left: 13px;  
+    margin-left: 0px;  
   }
   
 }
