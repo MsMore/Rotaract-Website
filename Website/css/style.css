@@ -1907,6 +1907,15 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 /* Projects area
 ================================================== */
 /* Project filter nav */
+.calendar-link {
+  font-size: medium;
+  color: #ffb600;
+  padding-left: 60%;
+}
+.calendar-link:hover {
+  color: #252525;
+}
+/*==================================== */
 .shuffle-btn-group {
   display: inline-block;
   margin: 20px 0 50px;
