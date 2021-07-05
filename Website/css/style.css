@@ -1902,6 +1902,14 @@ ul.navbar-nav > li > a {
 /* Projects area
 ================================================== */
 /* Project filter nav */
+.calendar-link {
+  font-size: medium;
+  color: #ffb600;
+  padding-left: 60%;
+}
+.calendar-link:hover {
+  color: #252525;
+}
 .calendar {
   padding-left: 25%;
 }
