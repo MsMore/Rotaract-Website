@@ -1212,8 +1212,6 @@ ul.navbar-nav > li > a {
   color: #ffb600 !important;
 }
 
-
-
 /* Table of Content
 ==================================================
 1.    Slider
@@ -1904,6 +1902,18 @@ ul.navbar-nav > li > a {
 /* Projects area
 ================================================== */
 /* Project filter nav */
+.calendar-link {
+  font-size: medium;
+  color: #ffb600;
+  padding-left: 60%;
+}
+.calendar-link:hover {
+  color: #252525;
+}
+.calendar {
+  padding-left: 25%;
+}
+/*==================================== */
 .shuffle-btn-group {
   display: inline-block;
   margin: 20px 0 50px;
@@ -3533,13 +3543,12 @@ label {
 #donate-join {
   list-style-type: none;
   display: flex;
-  margin-left: 180px;  
+  margin-left: 180px;
   margin-top: 10px;
-
 }
 
 #display-join .header-get-a-quote {
-  flex: 1;  
+  flex: 1;
 }
 
 #donate {
@@ -3549,7 +3558,6 @@ label {
 @media (max-width: 726px) {
   #donate-join {
     margin-top: 15px;
-    margin-left: 0px;  
+    margin-left: 0px;
   }
-  
 }
