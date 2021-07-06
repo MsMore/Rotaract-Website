@@ -1242,11 +1242,12 @@ ul.navbar-nav > li > a {
   background-position: center center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 200px) {
   .bg-image {
     background-attachment: scroll;
   }
 }
+
 /* 
 .overlay-mf {
   background-color: #0078ff;
