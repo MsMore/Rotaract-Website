@@ -12,13 +12,34 @@
   padding-top: 100px;
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .profile {
+    padding-left: 20%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .profile {
+    padding-left: 30%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .profile {
+    padding: 10px;
+    padding-top: 100px;
+  }
+}
 .profile-container {
   border-radius: 10px;
   width: 200px;
   height: 170px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+@media only screen and (min-width: 768px) {
+  .profile-container {
+    width: 175px;
+    height: 200px;
+  }
+}
 .profile-img img {
   border-radius: 50%;
   border: 3px solid #61a336;
