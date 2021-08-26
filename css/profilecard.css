@@ -1,109 +1,46 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-input,
-p,
-a {
-  font-family: "Open Sans";
-  margin: 0px;
+.hierarchy {
+  font-weight: 700;
+  font-size: 20px;
+}
+.hierarchy-row {
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+}
+.profile {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.profile-container {
+  border-radius: 10px;
+  width: 200px;
+  height: 170px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a,
-a:hover,
-a:focus {
-  color: inherit;
+.profile-img img {
+  border-radius: 50%;
+  border: 3px solid #61a336;
+  width: 150px;
+  height: auto;
+  margin-top: -40%;
+  margin-left: 25px;
 }
 
-.main-container {
-  background-color: #f1f2f3;
+.profile-name {
+  font-size: medium;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.container-fluid,
-.container {
-  max-width: 1200px;
+.designation {
+  font-size: medium;
+  padding: 0px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.card-container {
-  padding: 100px 0px;
-  -webkit-perspective: 1000;
-  perspective: 1000;
-}
-
-.profile-card-4 {
-  max-width: 300px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  position: relative;
-  margin: 10px auto;
-  cursor: pointer;
-}
-
-.profile-card-4 img {
-  transition: all 0.25s linear;
-}
-
-.profile-card-4 .profile-content {
-  position: relative;
-  padding: 15px;
-  background-color: #fff;
-}
-
-.profile-card-4 .profile-name {
-  font-weight: bold;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: -70px;
-  color: #fff;
-  font-size: 17px;
-}
-
-.profile-card-4 .profile-name p {
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-}
-
-.profile-card-4 .profile-description {
-  color: #777;
-  font-size: 12px;
-  padding: 10px;
-}
-
-.profile-card-4 .profile-overview {
-  padding: 15px 0px;
-}
-
-.profile-card-4 .profile-overview p {
-  font-size: 10px;
-  font-weight: 600;
-  color: #777;
-}
-
-.profile-card-4 .profile-overview h4 {
-  color: #273751;
-  font-weight: bold;
-}
-
-.profile-card-4 .profile-content::before {
-  content: "";
-  position: absolute;
-  height: 20px;
-  top: -10px;
-  left: 0px;
-  right: 0px;
-  background-color: #fff;
-  z-index: 0;
-  transform: skewY(3deg);
-}
-
-.profile-card-4:hover img {
-  transform: scale(1.1, 1.1);
-  filter: brightness(110%);
+.social-link {
+  padding: 5px;
+  text-align: center;
 }
