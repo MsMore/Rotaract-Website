@@ -3629,7 +3629,7 @@ label {
 }
 #all-project-list::-webkit-scrollbar-thumb{
   background-color: #bdec9e;
-  border-radius: 50%;
+  border-radius: 20px;
 
 }
 
@@ -3643,5 +3643,5 @@ label {
 
 #all-event-list::-webkit-scrollbar-thumb {
   background-color: #bdec9e;
-  border-radius: 50%;
+  border-radius: 20px;
 }
