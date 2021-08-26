@@ -1,6 +1,7 @@
 .hierarchy {
   font-weight: 700;
   font-size: 20px;
+  padding: 50px;
 }
 .hierarchy-row {
   text-align: center;
@@ -43,4 +44,8 @@
 .social-link {
   padding: 5px;
   text-align: center;
+}
+
+.president img {
+  border-color: orange;
 }
