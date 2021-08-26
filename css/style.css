@@ -23,6 +23,18 @@ p {
   font-size: 15px;
 }
 
+::-webkit-scrollbar{
+  background-color: rgb(218, 216, 216);
+  width: 7px;
+
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1d201b;
+  border-radius: 15px;
+  border: 1px dotted #61a336;
+}
+
 h1,
 h2,
 h3,
@@ -3611,22 +3623,25 @@ label {
   padding: 15px 10px;
 }
 
-#all-project-list::-webkit-scrollbar {
-  display: none;
+#all-project-list::-webkit-scrollbar{
+  background-color: whitesmoke;
+  width: 5px;
+}
+#all-project-list::-webkit-scrollbar-thumb{
+  background-color: #bdec9e;
+  border-radius: 50%;
+
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-#all-project-list {
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
-}
+
 
 #all-event-list::-webkit-scrollbar {
-  display: none;
+  background-color: rgb(255, 255, 255);
+  width: 5px;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-#all-event-list {
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
+#all-event-list::-webkit-scrollbar-thumb {
+  background-color: #bdec9e;
+  border-radius: 50%;
 }
