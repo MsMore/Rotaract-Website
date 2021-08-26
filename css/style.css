@@ -3606,4 +3606,27 @@ label {
   }
 }
 
+#all-event-list {
+  background-color: rgb(238, 243, 227);
+  padding: 15px 10px;
+}
 
+#all-project-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#all-project-list {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+#all-event-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#all-event-list {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
