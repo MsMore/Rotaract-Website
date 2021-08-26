@@ -30,9 +30,9 @@ p {
   
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #1d201b;
+  background-color: #3f3f3f;
   border-radius: 15px;
-  border: 1px dotted #61a336;
+
 }
 
 h1,
@@ -3629,7 +3629,7 @@ label {
 }
 #all-project-list::-webkit-scrollbar-thumb{
   background-color: #bdec9e;
-  border-radius: 20px;
+  border-radius: 2px;
 
 }
 
@@ -3637,11 +3637,11 @@ label {
 
 
 #all-event-list::-webkit-scrollbar {
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   width: 5px;
 }
 
 #all-event-list::-webkit-scrollbar-thumb {
-  background-color: #bdec9e;
-  border-radius: 20px;
+  background-color: transparent;
+  border-radius: 2px;
 }
