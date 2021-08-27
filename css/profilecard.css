@@ -60,6 +60,11 @@
 .social-link {
   padding: 5px;
   text-align: center;
+  margin: 2px;
+}
+.social-link :hover {
+  transform: scale(0.9);
+  
 }
 
 .president img {
