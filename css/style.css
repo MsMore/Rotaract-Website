@@ -3374,6 +3374,9 @@ label {
     margin: 0;
     padding: 0;
   }
+  .buddy-council {
+    margin-left: -10px;
+  }
 }
 
 .comments-form {
