@@ -23,16 +23,13 @@ p {
   font-size: 15px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   background-color: rgb(218, 216, 216);
   width: 7px;
-
-  
 }
 ::-webkit-scrollbar-thumb {
   background-color: #3f3f3f;
   border-radius: 15px;
-
 }
 
 h1,
@@ -2003,13 +2000,12 @@ ul.navbar-nav > li > a {
 .shuffle-item .project-img-container {
   position: relative;
   overflow: hidden;
-  
 }
 
 .shuffle-item .project-img-container img {
   height: 100%;
   width: 100%;
-  
+
   -webkit-transform: perspective(1px) scale3d(1.1, 1.1, 1);
   transform: perspective(1px) scale3d(1.1, 1.1, 1);
   transition: all 400ms;
@@ -3626,18 +3622,16 @@ label {
   padding: 15px 10px;
 }
 
-#all-project-list::-webkit-scrollbar{
+#all-project-list::-webkit-scrollbar {
   background-color: whitesmoke;
   width: 5px;
 }
-#all-project-list::-webkit-scrollbar-thumb{
+#all-project-list::-webkit-scrollbar-thumb {
   background-color: #bdec9e;
   border-radius: 2px;
-
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-
 
 #all-event-list::-webkit-scrollbar {
   background-color: transparent;
